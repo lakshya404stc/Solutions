@@ -1,0 +1,28 @@
+ssh -i "welcome1.pem" ec2-user@3.106.237.46
+
+sudo nano /etc/nginx/conf.d/react-app.conf
+
+scp -i "welcome1.pem" -r ""C:\Users\cours\OneDrive\Desktop\latestupdated\newUpdated\backend"" ec2-user@54.252.128.90:/home/ec2-user
+
+
+
+scp -i "welcome1.pem" -r "C:\Users\cours\OneDrive\Desktop\frontend" ec2-user@3.106.237.46:/home/ec2-user
+
+
+"C:\Users\cours\OneDrive\Desktop\text summarizer\python\api.py"
+
+
+sudo yum install -y nodejs npm
+
+
+
+serve -s build
+
+
+cd "C:\Users\cours\Downloads"
+
+if ($http_x_forwarded_proto != "https") {
+                  rewrite ^(.*)$ https://$server_name$1 permanent;
+                }
+
+7, 34
